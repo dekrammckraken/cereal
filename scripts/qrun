@@ -1,0 +1,15 @@
+#!/bin/bash
+
+notify-send "$1 running..."
+
+qemu-system-x86_64 \
+    -enable-kvm \
+    -m 4096 \
+    -smp 4 \
+    -cpu host \
+    -drive file=~/VMs/$1.qcow2,format=qcow2 \
+    -vga virtio \
+    -display sdl,gl=on \
+    -usb -device usb-tablet \
+    -audiodev pipewire,id=pw1 -device intel-hda -device hda-duplex,audiodev=pw1 \
+    -device usb-host,vendorid=0x0a12,productid=0x0001

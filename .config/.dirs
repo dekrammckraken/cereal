@@ -1,0 +1,13 @@
+export SUPPORT_DISK=/mnt/SupportDisk
+export CONFIG_BACKUP=$SUPPORT_DISK/RepositoryDisk/Config
+export GAMES_DIR=/mnt/DataDisk/GameLibrary
+export GAMES_LIB=/mnt/DataDisk/GameLibrary/Games/
+export DEV_DIR=$SUPPORT_DISK/RepositoryDisk/Development
+export REPO_DIR=$SUPPORT_DISK/RepositoryDisk
+export ARTS_DIR=$REPO_DIR/Arts
+export MUSIC_DIR=$REPO_DIR/Music
+export VIDEO_DIR=$REPO_DIR/Video
+export TV_DIR=$REPO_DIR/Tv
+export SH_DIR=$REPO_DIR/Scripts
+export FLTPAK_DIR=~/.var/app
+export VMS_DIR=~/VMs

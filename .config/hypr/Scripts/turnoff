@@ -1,0 +1,3 @@
+#!/bin/bash
+shutdown +1 && notify-send "Shutting down in 1 minutes!"
+

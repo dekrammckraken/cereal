@@ -1,0 +1,3 @@
+#!/bin/bash
+mullvad connect && notify-send -t 2000 "VPN ON"
+

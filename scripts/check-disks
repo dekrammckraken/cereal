@@ -1,0 +1,35 @@
+#!/bin/bash
+
+set -e
+
+declare -A disks=(
+  ["/dev/sda1"]="/mnt/DataDisk"
+  ["/dev/sdc1"]="/mnt/BackupDisk"
+  ["/dev/sdd"]="/mnt/SupportDisk"
+)
+
+for part in "${!disks[@]}"; do
+  mountpoint="${disks[$part]}"
+
+  if mount | grep -q "$part"; then
+    sudo umount "$part"
+  else
+    echo "$part is not mounted. Skipping unmount."
+  fi
+
+  sudo fsck -f "$part"
+
+  if [ "$part" == "/dev/sdc1" ]; then
+    read -p "Do you want to remount the backup disk? (y/n): " answer
+    if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
+        sudo mount "$part" "$mountpoint"
+    else
+        echo "Backup disk not remounted."
+    fi
+  else
+    sudo mount "$part" "$mountpoint"
+  fi
+  echo
+done
+
+echo "Disk check completed."

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+TITLE=$'\n.:: Select image to preview ::.\n\n'
+
+selected=$(fd . ~/Pictures \
+  --type f \
+  --extension jpg --extension jpeg --extension png |
+  fzf \
+    --preview 'viu {} -w 40' \
+    --preview-window=right:60% \
+    --header "$TITLE" \
+    --border \
+    --layout=reverse)
+
+[ -n "$selected" ] && viu "$selected"

@@ -1,0 +1,2 @@
+#!/bin/bash
+wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && notify-send "Volume MUTED" -t 500

@@ -1,0 +1,49 @@
+#!/bin/bash
+
+TITLE=$'\n.:: Select folder to jump in ::.\n\n'
+
+DIRS_FILE="$HOME/.config/.dirs"
+[ -f "$DIRS_FILE" ] && source "$DIRS_FILE"
+
+declare -A dir_map
+all_dirs=""
+
+all_dirs+="HOME"$'\n'
+dir_map["HOME"]="$HOME"
+
+while IFS= read -r line; do
+  [[ -z "$line" ]] && continue
+
+  if [[ "$line" =~ ^export ]]; then
+    name=$(echo "$line" | sed -E 's/^export ([^=]+)=.*$/\1/')
+    value=$(echo "$line" | sed -E 's/^export [^=]+=//')
+    all_dirs+="$name"$'\n'
+    dir_map["$name"]="$value"
+  fi
+done < "$DIRS_FILE"
+
+if [ -n "$1" ]; then
+  selected=$1
+else
+  selected=$(echo "$all_dirs" | sed '/^$/d' | fzf \
+      --preview 'bash -c '\''dir=$(eval echo "${1}"); [[ -f "$dir/read.me" ]] && bat --style=plain --color=always "$dir/read.me"; echo -e "\n"; tree -CL 2 "$dir" 2>/dev/null'\'' _ {}' \
+      --preview-window=right:60% \
+      --header "$TITLE" \
+      --border \
+      --layout=reverse)
+fi
+
+if [ -z "$selected" ]; then
+  echo "Changing your mind isn't a bad thing."
+  exit 1
+fi
+
+target_dir="${dir_map[$selected]}"
+target_dir=$(eval echo "$target_dir")
+
+if [ -n "$target_dir" ]; then
+  cd "$target_dir" || exit 1
+else
+  echo "'$selected' not found"
+  exit 1
+fi

@@ -1,0 +1,2 @@
+#!/bin/bash
+mullvad disconnect && notify-send -t 2000 "VPN OFF"
