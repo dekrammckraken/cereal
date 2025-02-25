@@ -1,0 +1,13 @@
+qemu-img create -f qcow2 $2 $1
+
+qemu-system-x86_64 \
+    -enable-kvm \
+    -m 4096 \
+    -smp 4 \
+    -cpu host \
+    -drive file=$2,format=qcow2 \
+    -cdrom $3 \
+    -boot order=d \
+    -vga virtio \
+    -display sdl,gl=on \
+    -usb -device usb-tablet

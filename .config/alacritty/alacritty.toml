@@ -1,0 +1,29 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/gruvbox_dark.toml",
+    "~/.config/alacritty/keybindings.toml"
+]
+[window]
+
+opacity = 0.9
+padding.x = 0
+padding.y = 0
+
+decorations = "None"
+decorations_theme_variant = "None"
+dynamic_padding = true
+
+
+[font]
+size = 15.0
+#normal = { family = "3270NerdFontMono",style = "Regular" }
+normal = { family = "3270 Nerd Font Mono", style = "Regular"}
+offset.x = 1
+offset.y = 1
+
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+unfocused_hollow = true
