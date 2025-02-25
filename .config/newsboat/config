@@ -1,0 +1,4 @@
+browser "flatpak run org.mozilla.firefox %u"
+auto-reload yes
+reload-time 1
+include ~/.config/newsboat/colorschemes/gruvbox
