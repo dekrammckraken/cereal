@@ -1,0 +1,5 @@
+2025-03-31 22:43:48.680 [info] Started local extension host with pid 4144.
+2025-03-31 22:43:51.149 [error] Error while getting the latest version for the extension jdinhlife.gruvbox. Cannot read properties of undefined (reading 'replace')
+2025-03-31 22:43:51.418 [info] [perf] Render performance baseline is 34ms
+2025-03-31 22:43:51.976 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-03-31 22:44:01.986 [warning] Settings pattern "issueReporter.*" doesn't match any settings

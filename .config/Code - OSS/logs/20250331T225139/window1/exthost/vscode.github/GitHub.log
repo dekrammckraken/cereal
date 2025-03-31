@@ -1,0 +1,3 @@
+2025-03-31 22:51:41.252 [info] Log level: Info
+2025-03-31 22:51:41.425 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-31 22:53:13.051 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for dekrammckraken/hyprps: Error: No GitHub authentication session available.

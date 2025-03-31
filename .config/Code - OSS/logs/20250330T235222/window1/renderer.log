@@ -1,0 +1,6 @@
+2025-03-30 23:52:24.291 [info] Started local extension host with pid 20325.
+2025-03-30 23:52:24.382 [info] Started initializing default profile extensions in extensions installation folder. file:///home/dekram/.vscode-oss/extensions
+2025-03-30 23:52:24.537 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/dekram/.vscode-oss/extensions
+2025-03-30 23:52:27.522 [info] [perf] Render performance baseline is 48ms
+2025-03-30 23:52:53.702 [info] Started local extension host with pid 20643.
+2025-03-30 23:52:56.354 [info] [perf] Render performance baseline is 69ms

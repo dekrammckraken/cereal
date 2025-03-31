@@ -1,0 +1,64 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "2a3099e010a9220b7b84c123e96f07c34a9f9de83a1bc6d5fdb627c0ce84857f",
+    "telemetry.devDeviceId": "47652bff-6cb1-472c-ae4b-aefe41214abc",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///mnt/SupportDisk/RepositoryDisk/Development/hyprps"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 44,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///mnt/SupportDisk/RepositoryDisk/Development/hyprps": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1d2021",
+    "windowSplash": {
+        "zoomLevel": 1.2,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ebdbb2",
+            "background": "#1d2021",
+            "editorBackground": "#1d2021",
+            "titleBarBackground": "#1d2021",
+            "activityBarBackground": "#1d2021",
+            "activityBarBorder": "#3c3836",
+            "sideBarBackground": "#1d2021",
+            "sideBarBorder": "#3c3836",
+            "statusBarBackground": "#1d2021",
+            "statusBarBorder": "#3c3836",
+            "statusBarNoFolderBackground": "#1d2021"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 208,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///mnt/SupportDisk/RepositoryDisk/Development/hyprps",
+            "backupPath": "/home/dekram/.config/Code - OSS/Backups/f521cb896b2c18c196e9cc5227853783",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 540
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,7 @@
+2025-03-31 22:40:17.807 [info] Getting Manifest... jdinhlife.gruvbox
+2025-03-31 22:40:18.712 [info] Installing extension: jdinhlife.gruvbox {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/dekram/.vscode-oss/extensions/extensions.json","path":"/home/dekram/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-14T20:56:55.540Z"}}
+2025-03-31 22:40:19.751 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-03-31 22:40:19.752 [info] Extension signature verification is not done: jdinhlife.gruvbox
+2025-03-31 22:40:19.938 [info] Extracted extension to file:///home/dekram/.vscode-oss/extensions/jdinhlife.gruvbox-1.24.6-universal: jdinhlife.gruvbox
+2025-03-31 22:40:19.956 [info] Renamed to /home/dekram/.vscode-oss/extensions/jdinhlife.gruvbox-1.24.6-universal
+2025-03-31 22:40:20.019 [info] Extension installed successfully: jdinhlife.gruvbox vscode-userdata:/home/dekram/.vscode-oss/extensions/extensions.json

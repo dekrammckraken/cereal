@@ -1,0 +1,4 @@
+2025-03-31 22:43:07.948 [info] Started local extension host with pid 3871.
+2025-03-31 22:43:10.535 [error] Error while getting the latest version for the extension jdinhlife.gruvbox. Cannot read properties of undefined (reading 'replace')
+2025-03-31 22:43:10.693 [info] [perf] Render performance baseline is 27ms
+2025-03-31 22:43:15.289 [warning] Settings pattern "issueReporter.*" doesn't match any settings

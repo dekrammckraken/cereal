@@ -1,0 +1,42 @@
+2025-03-31 22:39:20.493 [info] [main] Log level: Info
+2025-03-31 22:39:20.493 [info] [main] Validating found git in: "git"
+2025-03-31 22:39:20.539 [info] [main] Using git "2.49.0" from "git"
+2025-03-31 22:39:20.539 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-31 22:39:20.599 [info] > git rev-parse --show-toplevel [46ms]
+2025-03-31 22:39:20.605 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-03-31 22:39:20.616 [info] [Model][openRepository] Opened repository: /mnt/SupportDisk/RepositoryDisk/Development/hyprps
+2025-03-31 22:39:20.630 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-31 22:39:20.631 [info] > git config --get commit.template [8ms]
+2025-03-31 22:39:20.641 [info] > git rev-parse --show-toplevel [6ms]
+2025-03-31 22:39:20.651 [info] > git rev-parse --show-toplevel [5ms]
+2025-03-31 22:39:20.657 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-31 22:39:20.658 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-31 22:39:20.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-03-31 22:39:20.691 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-31 22:39:20.754 [info] > git status -z -uall [69ms]
+2025-03-31 22:39:20.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-03-31 22:39:20.787 [info] > git config --get commit.template [6ms]
+2025-03-31 22:39:20.788 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-03-31 22:39:20.788 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-31 22:39:20.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-03-31 22:39:20.833 [info] > git status -z -uall [6ms]
+2025-03-31 22:39:20.835 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-31 22:39:20.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 22:39:20.849 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-03-31 22:39:20.849 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-31 22:39:20.940 [info] > git reflog main --grep-reflog=branch: Created from *. [148ms]
+2025-03-31 22:39:20.944 [info] > git reflog main --grep-reflog=branch: Created from *. [91ms]
+2025-03-31 22:39:20.949 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-03-31 22:39:20.949 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-31 22:39:20.949 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-31 22:39:20.953 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2025-03-31 22:39:20.954 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-31 22:39:20.954 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-31 22:39:20.958 [info] > git ls-files --stage -- src/main.rs [19ms]
+2025-03-31 22:39:20.963 [info] > git show --textconv :src/main.rs [30ms]
+2025-03-31 22:39:20.964 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-03-31 22:39:20.968 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2025-03-31 22:39:20.973 [info] > git diff --name-status -z --diff-filter=ADMR 1126b57bed33f87a9c7d41c068cc775a824283e5...refs/remotes/origin/main [5ms]
+2025-03-31 22:39:20.974 [info] > git cat-file -s d5c93b20b5aafed5f7dd5fcca58d403347ffb70c [12ms]
+2025-03-31 22:39:20.975 [info] > git diff --name-status -z --diff-filter=ADMR 1126b57bed33f87a9c7d41c068cc775a824283e5...refs/remotes/origin/main [3ms]
+2025-03-31 22:39:21.175 [info] > git check-ignore -v -z --stdin [2ms]

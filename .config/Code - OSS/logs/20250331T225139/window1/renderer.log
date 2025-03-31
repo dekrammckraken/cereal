@@ -1,0 +1,20 @@
+2025-03-31 22:51:40.103 [info] Started local extension host with pid 4578.
+2025-03-31 22:51:42.599 [error] Error while getting the latest version for the extension jdinhlife.gruvbox. Cannot read properties of undefined (reading 'replace')
+2025-03-31 22:51:42.963 [info] [perf] Render performance baseline is 55ms
+2025-03-31 22:51:54.575 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:53:47.877 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:54:21.137 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:54:23.870 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:54:55.821 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:55:09.028 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:55:18.785 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:55:24.251 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:55:28.904 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:56:06.683 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:56:13.585 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:56:31.160 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:57:04.128 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:58:22.615 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:58:42.505 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:58:45.504 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:58:47.278 [warning] Settings pattern "issueReporter.*" doesn't match any settings

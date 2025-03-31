@@ -1,0 +1,19 @@
+2025-03-31 22:42:15.099 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:42:15.257 [info] Started local extension host with pid 3396.
+2025-03-31 22:42:15.611 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at ICs.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:413:8339)
+    at ICs.rerender (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:413:6800)
+    at dGe.rerender (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:413:15667)
+    at a0.$c (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1857:55403)
+    at a0.Yc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1857:55267)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1857:54603
+    at Set.forEach (<anonymous>)
+    at a0.Wc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1857:54587)
+    at xie.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1857:38294)
+    at E.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2392)
+2025-03-31 22:42:16.573 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:42:17.949 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:42:19.650 [error] Error while getting the latest version for the extension jdinhlife.gruvbox. Cannot read properties of undefined (reading 'replace')
+2025-03-31 22:42:20.090 [info] [perf] Render performance baseline is 56ms
+2025-03-31 22:42:20.349 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-31 22:42:28.115 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

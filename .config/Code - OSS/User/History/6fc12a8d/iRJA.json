@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 1.2,
+    "editor.fontFamily": "3270 Nerd FontMono",
+    "editor.cursorStyle": "block",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 5,
+    "terminal.integrated.cursorStyleInactive": "block"
+}
