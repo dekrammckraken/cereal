@@ -1,0 +1,18 @@
+max-visible=1
+anchor=top-center
+font=3270NerdFontMono 15
+
+icons=1
+markup=1
+
+padding=15
+margin=3
+background-color=#d7992199
+progress-color=#ebdbb2aa
+text-color=#3c3836
+
+border-color=#d79921BB
+border-size=3
+border-radius=0
+
+layer=overlay
