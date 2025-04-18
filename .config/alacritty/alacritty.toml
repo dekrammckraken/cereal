@@ -17,7 +17,7 @@ dynamic_padding = true
 [font]
 size = 15.0
 #normal = { family = "3270NerdFontMono",style = "Regular" }
-normal = { family = "3270 Nerd Font Mono", style = "Regular"}
+normal = { family = "3270 Nerd Font Mono", style = "Mono"}
 offset.x = 1
 offset.y = 1
 
