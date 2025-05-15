@@ -1,0 +1,11 @@
+show_empty_channels: true
+mark_on_open: true
+down_on_mark: true
+app_title: TYT
+update_at_start: true
+sort_channels: AlphaNumeric
+message_timeout: 20
+video_player: mpv
+sort_videos: UnseenDate
+notify_with: notify_send
+use_dearrow_titles: false

@@ -5,11 +5,11 @@ import = [
 ]
 [window]
 
-opacity = 0.9
-padding.x = 0
-padding.y = 0
+#opacity = 0.8
+padding.x = 2 
+padding.y = 2
 
-decorations = "None"
+decorations = "Full"
 decorations_theme_variant = "None"
 dynamic_padding = true
 
@@ -17,9 +17,9 @@ dynamic_padding = true
 [font]
 size = 15.0
 #normal = { family = "3270NerdFontMono",style = "Regular" }
-normal = { family = "3270 Nerd Font Mono", style = "Mono"}
-offset.x = 1
-offset.y = 1
+normal = { family = "3270 Nerd Font Mono", style = "Regular"}
+offset.x = 0 
+offset.y = 0 
 
 
 [selection]
@@ -27,3 +27,5 @@ save_to_clipboard = true
 
 [cursor]
 unfocused_hollow = true
+
+

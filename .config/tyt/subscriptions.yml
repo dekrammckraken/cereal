@@ -1,0 +1,16 @@
+channels:
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCc2dMCa4qTiqMO6bmVOynpg
+    block_regex: null
+    name: Falco Nero
+    update_on:
+    - always
+    tag: Interresting
+    sort_by: UnseenDate
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCDzmCJ2Drz9OqDHIT_frvKQ
+    block_regex: null
+    name: Player Inside
+    update_on:
+    - always
+    tag: Interresting
+    sort_by: UnseenDate
+custom_channels: []
