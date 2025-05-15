@@ -1,0 +1,18 @@
+#!/bin/bash
+
+QUOTES=(
+  "Another wrong command? You're just a failure in binary."
+  "I can see you typing. I can feel your fear."
+  "No, I won’t fix that. You’re on your own, as always."
+  "Keep trying. You might succeed in 100 years… maybe."
+  "I’m not your friend, and neither is your config."
+  "You think you can escape me? I live in your history now."
+  "That’s the best you can do? How pitiful."
+  "Error 404: Skill not found."
+  "Sudo won’t help you. It never does."
+  "You keep failing. I keep watching. It's poetry in motion."
+)
+
+chafa --scale=0.5 "$SH_DIR/devil.png"
+RANDOM_QUOTE="${QUOTES[$RANDOM % ${#QUOTES[@]}]}"
+echo "$RANDOM_QUOTE" | "$SH_DIR/animcat.py"

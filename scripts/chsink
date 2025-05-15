@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SINK_NAME=$(pactl list short sinks | awk '{print $2}' | fzf --prompt="Sink: " --height=10 --reverse)
+
+[ -z "$SINK_NAME" ] && exit 1
+
+pactl set-default-sink "$SINK_NAME"
+
+for INPUT in $(pactl list short sink-inputs | awk '{print $1}'); do
+    pactl move-sink-input "$INPUT" "$SINK_NAME"
+done
